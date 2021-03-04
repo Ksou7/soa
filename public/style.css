@@ -1,0 +1,735 @@
+/* related-products */
+/* #app {
+  margin-top: 5rem;
+} */
+/* reviews-style */
+
+/* .review-container {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-bottom: 3rem;
+}
+
+.review-list {
+  width: 23rem;
+  display: flex;
+  margin-left: 4rem;
+}
+.div-rating {
+  display: flex;
+  position: center;
+  margin-bottom: 8px;
+}
+.rating-div {
+  width: 23rem;
+}
+.general-rate {
+  font-size: 5rem;
+}
+.review-h1 {
+  font-size: 16px;
+  margin-top: 19px;
+  margin-left: -4rem;
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+}
+
+#fa {
+  font-size: 18px;
+}
+.review-time {
+  font-family: "Mukta", sans-serif;
+  font-size: 0.75rem;
+  width: 9rem;
+  margin-top: 5rem;
+  margin-left: 24rem;
+}
+
+.arrow-div {
+  display: flex;
+}
+
+.arrow-down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.review-user {
+  margin-top: -2px;
+}
+.review-item {
+  margin-bottom: 9px;
+  width: 23rem;
+}
+.review-paragraph {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 750;
+}
+.review-answer {
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 9px;
+  color: grey;
+  font-size: 1.25rem;
+  width: 700px;
+}
+.helpful-div {
+  display: flex;
+  margin-bottom: 9px;
+}
+.helpful-word {
+  font-family: "Mukta", sans-serif;
+  font-size: 0.75rem;
+  color: grey;
+  margin-top: 0.49rem;
+}
+.btn-yes {
+  font-family: "Mukta", sans-serif;
+  width: 4em;
+  background-color: white;
+  font-size: 0.75rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-top: 0.49rem;
+  border: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.btn-report {
+  background-color: white;
+  font-size: 0.75rem;
+  border: none;
+  outline: none;
+  width: 4em;
+  margin-left: 8px;
+  margin-top: 0.49rem;
+  text-decoration-line: underline;
+  text-decoration-color: grey;
+  color: grey;
+  cursor: pointer;
+}
+.MuiLinearProgress-root.MuiLinearProgress-colorPrimary.MuiLinearProgress-determinate {
+  height: 0.5rem;
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  margin-left: 0.75rem;
+  font-size: 8px;
+  border: 4px;
+  color: black;
+  background-color: white;
+  font-family: "Mukta", sans-serif;
+  margin-top: 11px;
+  text-decoration: none;
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.ui.button {
+  min-width: 344px;
+  height: 3rem;
+}
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button {
+  font-size: 8px;
+  border: 4px;
+  color: black;
+  background-color: white;
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 0.1rem;
+  text-decoration: none;
+}
+.MuiButton-label {
+  text-transform: lowercase;
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0;
+  margin-left: -0.9rem;
+  margin-top: -0.1rem;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+hr {
+  width: 700px;
+  text-align: left;
+  margin-left: 0;
+}
+.vl {
+  margin-left: 6rem;
+  margin-top: 0.7rem;
+  position: absolute;
+  margin-left: 4.3rem;
+  height: 10px;
+}
+.div-button {
+  display: flex;
+}
+.ui button {
+  background-color: white;
+  border-radius: none;
+  font-size: 12px;
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.ui.button {
+  border-radius: 0rem;
+  margin-right: 1rem;
+  font-weight: 400;
+  font-family: "Mukta", sans-serif;
+  width: 7rem;
+  text-decoration: none;
+} */
+/* ##################################### */
+/* .show-more {
+  font-size: 0.5rem;
+  margin-top: 0rem;
+  color: grey;
+  cursor: pointer;
+  font-family: "Mukta", sans-serif;
+}
+.show {
+  margin-top: -1rem;
+}
+
+/* .MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate {
+  height: 0.25rem;
+} */
+/* ########################"
+#################"
+#########################"" */
+/* .dv-star-rating {
+  display: flex;
+
+  width: 23rem;
+  margin-left: -14.25rem;
+  margin-top: 3.9rem;
+}
+i {
+  font-size: 2rem;
+}
+.div-container {
+  display: flex;
+  margin-right: 5rem;
+  width: 23rem;
+}
+
+.bar-div {
+  display: inline-block;
+  width: 23rem;
+  width: 23rem;
+}
+.h4-star {
+  font-size: 0.3rem;
+  font-family: "Mukta", sans-serif;
+  height: 1.25rem;
+  width: 20rem;
+}
+.product-div {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 0.52rem;
+  width: 23rem;
+}
+.product-rating-container {
+  width: 13rem;
+}  */
+
+/* qa */
+
+/* #questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: grey;
+}
+
+.mother {
+  float: right;
+  font-size: 0.75rem;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.Yes {
+  font-size: 0.85rem;
+  color: gray;
+  font-family: sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.had {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.qCount {
+  margin-left: 0.5rem;
+}
+
+.Helpful {
+  margin-left: 100px;
+}
+
+.question {
+  font-family: sans-serif;
+  margin: 20px;
+}
+.button {
+  margin: 2rem;
+}
+
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  display: flex;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 14px 21px;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-dark:hover,
+input[type="submit"]:hover,
+.btn-dark.active {
+  border: solid 2px #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.list {
+  margin-top: 10rem;
+  /* position: fixed; */
+/* width: 70%;
+  height: 90%;
+  border: #1f1f1f solid 1px;
+}
+
+.loadMoreAnswers {
+  text-decoration: underline;
+}
+
+.loadMoreAnswers:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.AnswerimagePanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.AnswerimagePanel img {
+  margin: 10px;
+  display: flex;
+  width: 180px;
+  height: 100px;
+}
+
+#reviews {
+  width: 100%;
+  height: 100%;
+}  */
+
+/* ############## related products*/
+
+/* .card-product {
+  border: 1px solid;
+  border-color: grey;
+  max-width: 265px;
+  min-width: 265px;
+  max-height: 400px;
+  min-height: 400px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.card-star-top {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 230px;
+}
+
+.card-star-top:hover {
+  color: orange;
+}
+
+.card-image {
+  max-width: 265px;
+  min-width: 265px;
+  max-height: 265px;
+  min-height: 265px;
+}
+
+.card-category {
+  font-size: 14px;
+  margin: 8px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 8px;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 15px;
+  margin: 8px;
+  color: grey;
+}
+
+.card-star-rating {
+  margin: 8px;
+}
+
+.card-star {
+  margin: 1px;
+}
+
+.card-star:hover {
+  color: orange;
+}
+
+.remove {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 230px;
+}
+.remove:hover {
+  color: red;
+}
+
+.fa-check {
+  color: gray;
+}
+
+.fa-remove {
+  color: red;
+}
+
+.comparison-modal {
+  position: fixed;
+  right: 20%;
+  margin-top: 2%;
+
+  width: 30%;
+  height: 50%;
+  overflow: auto;
+  background-color: white;
+
+  border: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.left {
+  margin-bottom: 17px;
+}
+.right {
+  margin-left: 300%;
+  top: 150%;
+}
+
+th {
+  margin-left: 50px;
+} */
+
+/* navbar */
+body {
+  background-color: #e1eaea;
+}
+
+.thisrating {
+  position: absolute;
+  margin-left: 60em;
+  margin-top: 10em;
+}
+
+.navbar-brand {
+  float: left;
+  height: 2em;
+  padding: 0;
+}
+#image {
+  border-radius: 55%;
+  width: 40%;
+  margin-left: 3em;
+  margin-top: 1em;
+  box-shadow: 10px 5px 5px grey;
+}
+#search {
+  margin-left: 40em;
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* .searchform{
+  margin-left:30em;
+  display: flex;
+  flex-wrap: nowrap;
+} 
+ /* #moveright{
+  margin-left:30em;
+ 
+
+}  */
+
+#form {
+  margin-top: 50px;
+  margin-bottom: 4rem;
+  display: flex;
+}
+navbar-default {
+  color: black;
+}
+.navbar {
+  position: relative;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2em;
+}
+.fa {
+  font-size: 24px;
+}
+/* ////////////////// */
+/* carousel-css */
+.hide-bullets {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+}
+#slider-thumbs {
+  height: 565px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.item {
+  width: 30em;
+}
+
+.row {
+  width: 40em;
+}
+
+.container {
+  margin-top: 10em;
+  margin-bottom: 20em;
+
+  background-color: #e1eaea;
+  border: 2px solid #e0e0e0;
+}
+
+.carousel-inner {
+  padding: 50px;
+  transition: transform 0.2s;
+  width: 100rem;
+  margin: 0 auto;
+}
+.carousel-inner:hover {
+  transform: scale(1.2);
+}
+
+#this {
+  width: 55em;
+  /* height: 500px; */
+  /* margin-right: 32em; */
+
+  margin-left: 3rem;
+}
+
+#link:active {
+  text-decoration: underline;
+  color: black;
+}
+#link:visited {
+  text-decoration: underline;
+  color: black;
+}
+#link {
+  position: relative;
+  margin-left: 10px;
+}
+#productDetails {
+  margin-top: 2em;
+  padding: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200;400&family=Oswald:wght@200;700&display=swap");
+
+#name {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+}
+#category {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+#price {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+.dot {
+  border-radius: 50%;
+
+  background-color: grey;
+  height: 8rem;
+  width: 8rem;
+}
+.styledot {
+  margin-top: 1em;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+#boldstyle {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+#stylething {
+  margin-left: 0.8em;
+  margin-top: 3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  font-size: 15px;
+}
+
+#mylink {
+  margin-left: 9em;
+}
+
+.imgSize {
+  max-width: 100px;
+  min-width: 100px;
+  min-height: 500px;
+  max-height: 500px;
+  object-fit: cover;
+  /* position: fixed */
+}
+
+#search {
+  margin-right: 0.5em;
+}
+@media only screen and (max-width: 400px) {
+  #search {
+    margin-left: 40em;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0.5em;
+  }
+
+  .navbar {
+    position: fixed;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2em;
+  }
+
+  .btn {
+    margin-left: 40em;
+
+    flex-wrap: nowrap;
+    display: inline-block;
+  }
+  .searchform {
+    margin-left: 30em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .dot {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  #dotdiv {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+#sizes {
+  width: 170px;
+  height: 50px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#quantities {
+  width: 170px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: inline-block;
+}
+#buttondiv {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#textquantity {
+  text-align: center;
+}
+#carts {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  position: relative;
+  margin-left: 100px;
+}
+#textStyle {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
