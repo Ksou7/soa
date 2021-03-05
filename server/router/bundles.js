@@ -28,16 +28,16 @@ const router = Router();
 //   })
 // );
 
-router.use(
-  "/service4.js",
-  createProxyMiddleware({
-    target: service4.url,
-    pathRewrite: {
-      "^/bundles/service4.js": service4.bundle,
-    },
-    changeOrigin: true,
-  })
-);
+// router.use(
+//   "/service4.js",
+//   createProxyMiddleware({
+//     target: service4.url,
+//     pathRewrite: {
+//       "^/bundles/service4.js": service4.bundle,
+//     },
+//     changeOrigin: true,
+//   })
+// );
 
 router.use(
   "/service2.js",
