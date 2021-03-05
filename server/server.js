@@ -20,7 +20,7 @@ app.use("/bundles", router.bundles);
 app.use(
   "/api/reviews",
   createProxyMiddleware({
-    target: "http://206.189.62.246:3004",
+    target: "http://localhost:3004",
     changeOrigin: true,
     // pathRewrite: {
     //   "^/api/reviews": "",
