@@ -3,8 +3,8 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 const {
   service4,
   service2,
-  service1,
-  service3,
+  // service1,
+  // service3,
 } = require("../config/services.js");
 
 const router = Router();
@@ -13,6 +13,7 @@ const router = Router();
 //   service1.api,
 //   createProxyMiddleware({ target: service1.url, changeOrigin: true })
 // );
+
 router.use(
   service2.api,
   createProxyMiddleware({ target: service2.url, changeOrigin: true })
