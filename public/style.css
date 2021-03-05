@@ -690,8 +690,8 @@ navbar-default {
   .dot {
     display: flex;
     flex-wrap: nowrap;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
   }
 
   #dotdiv {
@@ -727,6 +727,8 @@ navbar-default {
   margin-top: 30px;
   position: relative;
   margin-left: 100px;
+  color: black;
+  border: 1px black;
 }
 #textStyle {
   font-family: "Roboto", sans-serif;
