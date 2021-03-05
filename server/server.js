@@ -18,7 +18,7 @@ app.use("/bundles", router.bundles);
 // app.use("/api", router.api);
 
 app.use(
-  "/api/reviews",
+  "/reviews",
   createProxyMiddleware({
     target: "http://206.189.62.246:3004",
     changeOrigin: true,
