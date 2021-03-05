@@ -22,9 +22,32 @@ app.use(
   createProxyMiddleware({
     target: "http://localhost:3004",
     changeOrigin: true,
+    // pathRewrite: {
+    //   "^/api/reviews": "",
+    // },
   })
 );
 
-
+// app.use(
+//   "/api/questions",
+//   createProxyMiddleware({
+//     target: "http://localhost:3002",
+//     changeOrigin: true,
+//   })
+// );
+// app.use(
+//   "/api/products/:product_id",
+//   createProxyMiddleware({
+//     target: "http://localhost:3001",
+//     changeOrigin: true,
+//   })
+// );
+// app.use(
+//   "/api/overview",
+//   createProxyMiddleware({
+//     target: "http://localhost:3003",
+//     changeOrigin: true,
+//   })
+// );
 
 module.exports = app;

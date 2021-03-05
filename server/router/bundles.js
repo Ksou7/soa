@@ -1,10 +1,13 @@
 const { Router } = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
-const { service4, service2, service1 , service3} = require("../config/services.js");
+const {
+  service4,
+  service2,
+  service1,
+  service3,
+} = require("../config/services.js");
 
 const router = Router();
-
-
 
 // router.use('/service3.js', createProxyMiddleware({
 //   target: service3.url,
