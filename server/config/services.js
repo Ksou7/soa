@@ -46,11 +46,11 @@ module.exports = {
   //   url: "http://localhost:3001",
   //   bundle: "app.js",
   // },
-  // service2: {
-  //   api: "/questions",
-  //   url: "http://localhost:3002",
-  //   bundle: "app.js",
-  // },
+  service2: {
+    api: "/questions",
+    url: "http://64.225.105.221:3002",
+    bundle: "app.js",
+  },
   // service3: {
   //   api: "/overview",
   //   url: "http://localhost:3003",
