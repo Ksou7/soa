@@ -15,18 +15,7 @@ app.use(express.static(PUBLIC_DIR));
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
 app.use("/bundles", router.bundles);
 // Handling AJAX requests to the API by passing off requests to the api router
-// app.use("/api", router.api);
-
-app.use(
-  "/reviews",
-  createProxyMiddleware({
-    target: "http://206.189.62.246:3004",
-    changeOrigin: true,
-    // pathRewrite: {
-    //   "^/api/reviews": "",
-    // },
-  })
-);
+app.use("/api", router.api);
 
 // app.use(
 //   "/api/questions",
