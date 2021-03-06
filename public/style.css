@@ -1,7 +1,7 @@
 /* related-products */
-/* #app {
+#app {
   margin-top: 5rem;
-} */
+}
 
 /* Overview */
 
@@ -620,7 +620,7 @@ input[type="submit"]:hover,
 
 /* ############## related products*/
 
-/* .card-product {
+.card-product {
   border: 1px solid;
   border-color: grey;
   max-width: 265px;
@@ -720,6 +720,6 @@ input[type="submit"]:hover,
 
 th {
   margin-left: 50px;
-} */
+}
 
 /* navbar */
