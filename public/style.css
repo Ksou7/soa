@@ -252,7 +252,7 @@ navbar-default {
 
 /* reviews-style */
 
-.review-container {
+/* .review-container {
   margin-top: 5rem;
   width: 100%;
   display: flex;
@@ -433,9 +433,9 @@ hr {
   font-family: "Mukta", sans-serif;
   width: 7rem;
   text-decoration: none;
-}
+} */
 /* ##################################### */
-.show-more {
+/* .show-more {
   font-size: 0.5rem;
   margin-top: 0rem;
   color: grey;
@@ -448,12 +448,12 @@ hr {
 
 .MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate {
   height: 0.25rem;
-}
+} */
 
 /* ########################"
 #################"
 #########################"" */
-.dv-star-rating {
+/* .dv-star-rating {
   display: flex;
 
   width: 23rem;
@@ -488,7 +488,7 @@ i {
 }
 .product-rating-container {
   width: 13rem;
-}
+} */
 
 /* qa */
 
