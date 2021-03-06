@@ -19,10 +19,10 @@ router.use(
   createProxyMiddleware({ target: service2.url, changeOrigin: true })
 );
 
-router.use(
-  service4.api,
-  createProxyMiddleware({ target: service4.url, changeOrigin: true })
-);
+// router.use(
+//   service4.api,
+//   createProxyMiddleware({ target: service4.url, changeOrigin: true })
+// );
 router.use(
   service3.api,
   createProxyMiddleware({ target: service3.url, changeOrigin: true })
