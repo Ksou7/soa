@@ -14,10 +14,10 @@ const router = Router();
 //   createProxyMiddleware({ target: service1.url, changeOrigin: true })
 // );
 
-router.use(
-  service2.api,
-  createProxyMiddleware({ target: service2.url, changeOrigin: true })
-);
+// router.use(
+//   service2.api,
+//   createProxyMiddleware({ target: service2.url, changeOrigin: true })
+// );
 
 // router.use(
 //   service4.api,
