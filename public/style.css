@@ -1,4 +1,7 @@
 /* related-products */
+.fixing {
+  display: flex;
+}
 #app {
   margin-top: 5rem;
 }
@@ -91,9 +94,9 @@ navbar-default {
 }
 
 .carousel-inner {
-  padding: 50px;
+  padding: 0px;
   transition: transform 0.2s;
-  width: 100rem;
+  width: 61rem;
   margin: 0 auto;
 }
 .carousel-inner:hover {
