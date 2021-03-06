@@ -3,6 +3,10 @@
   margin-top: 5rem;
 }
 
+#overview {
+  position: relative;
+}
+
 /* Overview */
 
 /* //rating css  */
