@@ -9,10 +9,10 @@ const {
 
 const router = Router();
 
-// router.use(
-//   service1.api,
-//   createProxyMiddleware({ target: service1.url, changeOrigin: true })
-// );
+router.use(
+  service1.api,
+  createProxyMiddleware({ target: service1.url, changeOrigin: true })
+);
 
 router.use(
   service2.api,

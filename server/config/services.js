@@ -41,11 +41,11 @@
 */
 
 module.exports = {
-  // service1: {
-  //   api: "/products/:product_id/",
-  //   url: "http://165.22.24.57:3001",
-  //   bundle: "app.js",
-  // },
+  service1: {
+    api: "/products/:product_id/",
+    url: "http://165.22.24.57:3001",
+    bundle: "app.js",
+  },
   service2: {
     api: "/questions",
     url: "http://64.225.105.221:3002",
