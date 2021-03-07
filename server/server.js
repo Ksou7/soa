@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 const path = require("path");
 const router = require("./router");
-const { createProxyMiddleware } = require("http-proxy-middleware");
 var cors = require("cors");
 
 const PUBLIC_DIR = path.resolve(__dirname, "..", "public");
@@ -16,27 +15,5 @@ app.use(express.static(PUBLIC_DIR));
 app.use("/bundles", router.bundles);
 // Handling AJAX requests to the API by passing off requests to the api router
 app.use("/api", router.api);
-
-// app.use(
-//   "/api/questions",
-//   createProxyMiddleware({
-//     target: "http://localhost:3002",
-//     changeOrigin: true,
-//   })
-// );
-// app.use(
-//   "/api/products/:product_id",
-//   createProxyMiddleware({
-//     target: "http://localhost:3001",
-//     changeOrigin: true,
-//   })
-// );
-// app.use(
-//   "/api/overview",
-//   createProxyMiddleware({
-//     target: "http://localhost:3003",
-//     changeOrigin: true,
-//   })
-// );
 
 module.exports = app;
