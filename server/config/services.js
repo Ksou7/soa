@@ -42,23 +42,23 @@
 
 module.exports = {
   // service1: {
-  //   api: "/products",
-  //   url: "http://localhost:3001",
+  //   api: "/products/:product_id/",
+  //   url: "http://165.22.24.57:3001",
   //   bundle: "app.js",
   // },
   // service2: {
   //   api: "/questions",
-  //   url: "http://localhost:3002",
+  //   url: "http://64.225.105.221:3002",
   //   bundle: "app.js",
   // },
-  // service3: {
-  //   api: "/overview",
-  //   url: "http://localhost:3003",
-  //   bundle: "app.js",
-  // },
-  service4: {
-    api: "/reviews",
-    url: "http://206.189.62.246:3004",
+  service3: {
+    api: "/overview",
+    url: "http://104.248.128.48:3003",
     bundle: "app.js",
   },
+  // service4: {
+  //   api: "/reviews",
+  //   url: "http://206.189.62.246:3004",
+  //   bundle: "app.js",
+  // },
 };
