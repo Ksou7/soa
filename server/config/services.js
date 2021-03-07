@@ -46,11 +46,11 @@ module.exports = {
   //   url: "http://165.22.24.57:3001",
   //   bundle: "app.js",
   // },
-  // service2: {
-  //   api: "/questions",
-  //   url: "http://64.225.105.221:3002",
-  //   bundle: "app.js",
-  // },
+  service2: {
+    api: "/questions",
+    url: "http://64.225.105.221:3002",
+    bundle: "app.js",
+  },
   service3: {
     api: "/overview",
     url: "http://104.248.128.48:3003",
