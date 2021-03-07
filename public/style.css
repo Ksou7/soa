@@ -259,7 +259,7 @@ navbar-default {
 
 /* reviews-style */
 
-/* .review-container {
+.review-container {
   margin-top: 5rem;
   width: 100%;
   display: flex;
@@ -273,6 +273,13 @@ navbar-default {
   display: flex;
   margin-left: 4rem;
 }
+
+element.style {
+  transform: translateX(-20%);
+}
+.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate {
+  height: 1rem !important;
+}
 .div-rating {
   display: flex;
   position: center;
@@ -280,6 +287,7 @@ navbar-default {
 }
 .rating-div {
   width: 23rem;
+  /* margin-top: -4rem !important; */
 }
 .general-rate {
   font-size: 5rem;
@@ -298,8 +306,8 @@ navbar-default {
 .review-time {
   font-family: "Mukta", sans-serif;
   font-size: 0.75rem;
-  width: 9rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
+  margin-top: 1rem;
   margin-left: 24rem;
 }
 
@@ -328,6 +336,7 @@ navbar-default {
   font-family: "Mukta", sans-serif;
   font-size: 1.25rem;
   font-weight: 750;
+  width: 38rem;
 }
 .review-answer {
   font-family: "Mukta", sans-serif;
@@ -393,13 +402,13 @@ navbar-default {
   height: 3rem;
 }
 .MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button {
-  font-size: 8px;
+  font-size: 12px;
   border: 4px;
   color: black;
   background-color: white;
   font-family: "Mukta", sans-serif;
   margin-bottom: 0.1rem;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .MuiButton-label {
   text-transform: lowercase;
@@ -413,6 +422,7 @@ navbar-default {
   background: none;
   text-decoration: underline;
 }
+
 hr {
   width: 700px;
   text-align: left;
@@ -440,10 +450,10 @@ hr {
   font-family: "Mukta", sans-serif;
   width: 7rem;
   text-decoration: none;
-} */
+}
 /* ##################################### */
-/* .show-more {
-  font-size: 0.5rem;
+.show-more {
+  font-size: 1rem;
   margin-top: 0rem;
   color: grey;
   cursor: pointer;
@@ -455,17 +465,13 @@ hr {
 
 .MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate {
   height: 0.25rem;
-} */
+}
 
-/* ########################"
-#################"
-#########################"" */
-/* .dv-star-rating {
+.dv-star-rating {
   display: flex;
-
   width: 23rem;
   margin-left: -14.25rem;
-  margin-top: 3.9rem;
+  margin-top: -0.1rem;
 }
 i {
   font-size: 2rem;
@@ -482,7 +488,7 @@ i {
   width: 23rem;
 }
 .h4-star {
-  font-size: 0.3rem;
+  font-size: 0.7rem;
   font-family: "Mukta", sans-serif;
   height: 1.25rem;
   width: 20rem;
@@ -493,9 +499,6 @@ i {
   margin-top: 0.52rem;
   width: 23rem;
 }
-.product-rating-container {
-  width: 13rem;
-} */
 
 /* qa */
 
@@ -724,12 +727,11 @@ input[type="submit"]:hover,
   width: 30%;
   height: 30%;
   overflow: auto;
-  background-color:white;
-
+  background-color: white;
 }
 
 h4 {
-  margin-left: 40px
+  margin-left: 40px;
 }
 
 table {
