@@ -750,5 +750,5 @@ td:first-child {
 /* navbar */
 .displays {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
