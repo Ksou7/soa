@@ -748,7 +748,4 @@ td:first-child {
 }
 
 /* navbar */
-.displays {
-  display: flex;
-  flex-wrap: wrap;
-}
+
