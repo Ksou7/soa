@@ -64,7 +64,6 @@ navbar-default {
 
 .thumbnail {
   padding: 0;
-  height: 20px;
 }
 
 .carousel-inner > .item > img,
@@ -749,3 +748,7 @@ td:first-child {
 }
 
 /* navbar */
+#overview {
+  margin-left: 50px;
+  width: 50%;
+}
